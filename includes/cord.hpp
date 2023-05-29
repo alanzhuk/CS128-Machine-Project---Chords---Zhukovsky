@@ -7,9 +7,9 @@
 
 class Cord {
 public:
-  // Cord(std::string_view sv);
-  // ~Cord();
-  // SharedPointer<char> ToString() const;
+  Cord(std::string_view sv);
+  ~Cord();
+  SharedPointer<char> ToString() const;
 
   // Provided, do not modify!
   Cord() = default;
